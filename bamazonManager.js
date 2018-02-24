@@ -89,7 +89,7 @@ function viewLowInventory() {
 
 			if (err) throw err;
 
-			console.log("\n----------\n\nADDITION TO INVENTORY\n");
+			console.log("\n----------\n\nLOW INVENTORY\n");
 
 			for (var i = 0; i < res.length; i++) {
 

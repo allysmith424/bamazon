@@ -96,8 +96,6 @@ function placeOrder() {
 
 					if (productReq.stock_quantity >= parseInt(response.quantity) && realProduct === true && isNaN(response.quantity) === false) {
 
-						console.log(realProduct);
-
 						var stockLeft = productReq.stock_quantity - response.quantity;
 
 						var totalPrice = productReq.price * response.quantity;
