@@ -15,7 +15,7 @@ connection.connect(function(err) {
 
 	if (err) throw err;
 
-	console.log("Connected to DB!")
+	console.log("\n\n");
 
 	displayAll();
 	placeOrder();
