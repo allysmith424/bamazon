@@ -7,7 +7,7 @@
 
 First, the current selection of products is displayed and the user is asked what kind of product they would like to buy.
 
-![App screenshot](/images/bamazonCustomer1.png)
+![App screenshot](images/bamazonCustomer1.png)
 
 The user then fills in the inquirer inputs for the product they'd like to buy and the amount. If the product is located in the database, and the amount they'd like to buy is lower than the current stock in the database -- a message appears notifying the purchase and total price.
 
